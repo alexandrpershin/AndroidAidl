@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FileCompressorApp</string>
+    <string name="tutorial_message">Compress file process is created. \n\n Bind to service with package id <b>"com.alexandrpershin.filecompressorapp"</b> and
+    service name <b>"com.alexandrpershin.filecompressorapp.service.FileCompressorService"</b></string>
+</resources>

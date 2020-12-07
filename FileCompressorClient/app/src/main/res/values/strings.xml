@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FileCompressorClient</string>
+    <string name="service_app_package_name">com.alexandrpershin.filecompressorapp</string>
+    <string name="service_full_name">com.alexandrpershin.filecompressorapp.service.FileCompressorService</string>
+</resources>
