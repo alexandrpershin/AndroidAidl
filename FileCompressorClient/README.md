@@ -15,6 +15,12 @@
   and etc. AIDL allows to client - add/remove callbacks to/from remote service. Also client is able 
   to call the methods of remote service. 
   
+  The client app provides UI to user. Once app is started user can connect/disconnect to remote
+  service clicking on Connect/Disconnect buttons. Once remote service is bound user can choose
+  on of 3 options to do: compress text,pdf,jpg files. While files are compressing, the app shows the
+  progress bar. Once remote service finishes the file compression it triggers appropriate callback,
+  the progress bar hides and TextView appears showing the path to compressed file.  
+  
 ## Why it possible?
  
  Because the remote service defines implementation of AIDL interface on its side and returns it as Binder to client
